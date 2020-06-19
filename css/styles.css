@@ -675,13 +675,14 @@ nav ul li a.active {
 .av1 {
     height: 88px;
     width: 88px;
-    background: url(../img/teamsprite.png) no-repeat;
+    background: url(../img/HSVF.jpg) no-repeat;
     background-position:  0px 0px;
+    background-size: cover;
     margin: -55px auto;
     position: relative;
 }
 .ca-hover:hover .av1 {
-    background: url(../img/teamsprite.png) no-repeat;
+    background: url(../img/HSVF.jpg) no-repeat;
     background-position:  0px -88px;
 
 }
@@ -756,6 +757,7 @@ nav ul li a.active {
 }
 .carousel-img img {
     width: 100%;
+    border: #242a2c solid 1px;
 }
 .controls {
     margin: 20px;
