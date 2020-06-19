@@ -13,7 +13,9 @@
 	  <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Rancho&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Rancho&display=swap" rel="stylesheet">
+    <!-- Estilos Propios --> 
+    <link rel="stylesheet" href="css/Estilos.css">
   </head>
   <body>
 		<header class="clearfix">
@@ -33,28 +35,26 @@
 		</header>
     <div class="banner">
     <ul>
-        <li style="background-image: url('img/Children2.jpg');">
+        <li class="img-portada1">
           <div class="container">
             <div class="row">
-              <div class="col-md-6 col-md-offset-3">
-                <div class="hero-title text-light">
+              <div class="col-md-12">
+                <div class="hero-title1 text-right">
                   DEJANDO HUELLAS.
                 </div>
-              <p class="hero-content">Amor e igualdad sin importar tu discapacidad.</p>
-              <a href="#" class="hero-btn">BUY IT NOW</a>
+                <p class="hero-content1">Amor e igualdad sin importar tu discapacidad.</p>
               </div>
             </div>
           </div>
         </li>
-        <li style="background-image: url('img/Children1.jpg');">
+        <li class="img-portada2">
           <div class="container">
             <div class="row">
-              <div class="col-md-6 col-md-offset-3">
-                <div class="hero-title">
+              <div class="col-md-5">
+                <div class="hero-title2 mt-3">
                   DEMFAI.
                 </div>
-              <p class="hero-content">Dale alegría a tu vida, cree en tí, y aprende aquí.</p>
-              <a href="#" class="hero-btn">BEER ME!</a>
+              <p class="hero-content2">Dale alegría a tu vida, cree en tí, y aprende aquí.</p>
               </div>
             </div>
           </div>
@@ -62,9 +62,20 @@
     </ul>
 </div>
     <div class="container">
-    <div class="arrow"></div>
+      <div class="arrow" id="aliados"></div>
     </div>
-    <div class="container carousel" id="aliados">
+    <br />
+    <br />
+    <div class="h2-wrap mt-3">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+          <h2 class="standard-block">ALIADOS</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container carousel" >
       <div class="row">
 
         <div class="col-md-3">
@@ -127,6 +138,7 @@
         </div>
         </div>
       </div>
+      <span id="servicios"></span>
     </div>
     <div class="container">
       <div class="row">
@@ -139,8 +151,17 @@
         </div>
       </div>
     </div>
+    <div class="h2-wrap mt-3">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+          <h2 class="standard-block">SERVICIOS</h2>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="text-inter">
-    <div class="container" id="servicios" style="background: blue;"> 
+    <div class="container" style="background: #afaffc;"> 
       <div class="row">
         <div class="col-md-6">
           <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
@@ -156,17 +177,18 @@
         </div>  
       </div>
     </div>
+    <span id="imagenes"></span>
     </div>
     <div class="h2-wrap">
       <div class="container">
         <div class="row">
         <div class="col-md-12">
-          <h2 class="standard-block">LATEST ARTICLES</h2>
+          <h2 class="standard-block">IMAGENES</h2>
           </div>
         </div>
       </div>
     </div>
-    <div class="container-fluid container-articles" id="imagenes">
+    <div class="container-fluid container-articles">
       <div class="row articles">
         <div class="col-md-2 article-img">
           <a href="#"><img src="img/articles/01.jpg" alt=""></a>
@@ -218,9 +240,16 @@
           <a href="#"><img src="img/articles/12.jpg" alt=""></a>
           <div class="article-overlay"></div>
         </div>
+        
       </div>
     </div>
-    
+        <span id="contactenos"></span>
+    </div>
+
+    <div>
+      <br>
+      <br>
+      <br>
     </div>
     <div class="quote-container">
       <div class="container">
@@ -248,10 +277,10 @@
     </div>
     <div class="shadow"></div>
     <footer>
-      <div class="container" id="contactenos">
+      <div class="container">
         <div class="row">
           <div class="col-md-2">
-            <h2>INFUSION</h2>
+            <h2>CONTACTENOS</h2>
           </div>
           <div class="col-md-5">
             <p>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. Maecenas diam est, venenatis vitae dui in, vestibulum mollis arcu. Donec eu nibh tincidunt, dapibus sem eu, aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>

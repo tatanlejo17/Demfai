@@ -2,8 +2,8 @@ $(window).load(function() {
   $('.banner').unslider({
         fluid: true,
         dots: true,
-        speed: 500,
-        delay: 4000
+        speed: 800,
+        delay: 6000
       });
   if(window.chrome) {
         $('.banner li').css('background-size', '100% 100%');
