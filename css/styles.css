@@ -596,9 +596,6 @@ nav ul li a:hover {
     text-decoration: none;
     color: #63c6ae;
 }
-nav ul li a.active {
-    color: #63c6ae;
-}
 .hero {
     background: url(../img/herobg.jpg) no-repeat center center; 
     -webkit-background-size: cover;
@@ -628,14 +625,14 @@ nav ul li a.active {
     font-size: 50px;
     font-weight: 600;
     padding: 30px 20px;
-    margin-top: 150px;
+    margin-top: 250px;
     font-family: 'Love Ya Like A Sister', cursive;
     letter-spacing: 2px;
-    text-shadow: #32b473 2px 2px 4px;
+    text-shadow: #b49632 3px -2px 5px;
 }
 .hero-content1 {
     background-color: #242a2c60;
-    margin-top: 150px;
+    margin-top: 160px;
     color: #fff;
     padding: 20px;
     font-size: 26px;
@@ -647,14 +644,13 @@ nav ul li a.active {
     width: 45%;
 }
 .hero-content2 {
-    background-color: #82848549;
-    margin: 5px 30px 35px;
+    background-color: #242a2c7a;
+    margin: 15px 30px 35px;
     color: #fff;
     padding: 20px;
-    font-size: 26px;
-    font-style: italic;
+    font-size: 23px;
     border-radius: 5px;
-    font-family: 'Rancho', cursive;
+    font-family: 'Patrick Hand', cursive;
     letter-spacing: 1px;
 }
 
@@ -728,13 +724,16 @@ nav ul li a.active {
     border-left: solid 1px #dbe1e7;
 }
 .carousel-content h3, .text-inter h3 {
-    color: #737c85;
-    font-size: 21px;
-    padding-top: 40px;
+    color: #393d41;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
 }
 .carousel-content p, .text-inter p {
-    color: #929da5;
-    font-size: 14px;
+    color: #778086;
+    font-size: 16px;
     word-spacing: 2px;
 }
 .overlay {
@@ -757,6 +756,7 @@ nav ul li a.active {
 }
 .carousel-img img {
     width: 100%;
+    height: 180px;
     border: #242a2c solid 1px;
 }
 .controls {
@@ -823,13 +823,15 @@ nav ul li a.active {
     height: 25px;
 }
 .h2-wrap {
-    background-color: #63c6ae;
+    background-color: #63c6adde;
     padding: 5px 0;
 }
 .standard-block {
-    font-size: 24px;
+    font-size: 28px;
     color: #fff;
-    font-weight: 400 !important;
+    font-weight: 600 !important;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 1px;
 }
 .articles {
     overflow: hidden;
@@ -915,13 +917,18 @@ figcaption{
     font-size: 18px;
     color: #fff;
     text-align: center;
+    font-style: italic;
 }
 figcaption a{
 color: #fff;
 }
 .quote-container {
-    background-color: #63c6ae;
+    background-color: #63c6adde;
+    /* background-color: #ffea82; */
     padding: 50px 0;
+    text-shadow: black 1px -1px 3px;
+    border-top: black 1px solid;
+
 }
 .quote-slideshow {
     height: auto;
@@ -930,7 +937,9 @@ color: #fff;
     color: #fff;
     font-size: 30px;
     font-weight: 200;
-    font-style: italic;
+    /* font-style: italic; */
+    text-align: center;
+    font-family: 'Sriracha', cursive;
 }
 .circle {
     background-color: rgba(0,0,0,0.1);

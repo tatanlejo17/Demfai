@@ -3,7 +3,7 @@ $(window).load(function() {
         fluid: true,
         dots: true,
         speed: 800,
-        delay: 6000
+        delay: 10000
       });
   if(window.chrome) {
         $('.banner li').css('background-size', '100% 100%');
