@@ -5,3 +5,67 @@
 .img-portada2{
     background-image: url('../img/Children8.jpeg');
 }
+
+.serv-item{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: .2rem;
+}
+
+.logo-serv1{
+    margin-top: .2rem;
+    width: 480px; 
+    height: 300px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    transition: 0.8s ease;
+}
+
+.logo-serv1:hover{
+    /* border-radius:50%; */
+    /* -webkit-border-radius:50%; */
+    box-shadow: 0px 0px 2px 2px #63c6ae;
+    -webkit-box-shadow: 0px 0px 2px 2px #63c6ae;
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    overflow:hidden;
+}
+
+.logo-serv2{
+    margin-top: .2rem;
+    border: #333333 1px solid;
+    width: 280px; 
+    height: 120px;
+}
+
+.leyenda{
+    font-style: italic;
+    font-size: .9rem;
+}
+
+td{
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+}
+
+.tab-titulo{
+    font-weight: 700;
+    background: blanchedalmond;
+}
+
+.lista-aliados{
+    color: #778086;
+    font-size: 15px;
+    word-spacing: 2px;
+}
+
+.lista-aliados:hover{
+    color: #63c6ae;
+}
+
+.img-contactenos{
+    transform: rotate(-90deg);
+    width: 250px;
+    height: 450px;
+}
